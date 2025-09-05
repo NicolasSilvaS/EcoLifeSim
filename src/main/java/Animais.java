@@ -1,20 +1,69 @@
 package main.java;
 
-public interface Animais {
-    boolean Noturno();
-    void comer();
-    void dormir();
-    void fazerBarulho();
+public class Animais {
 
-    public class carnivoros {
+    abstract class carnivoros{
+        class leao{
+         
+      }
+
+        class tigre{
+      
+      }
+
+        class urso{
+
+      }
+
+      class lobo{
+
+      }
+
+      class hiena{
+
+      }
+    }
+    
+
+    abstract class herbivoros {
+
+        class elefante{
+
+        }
+
+        class girafa{
+
+        }
+
+        class zebra{
+
+        }
+
+        class veado{
+
+        }
+
+        class coelho{
+
+        }
+
+    }
+
+    abstract class onivoros {
+        class javali{
+            
+        }
+
+        class rato{
         
-    }
+        }
 
-    public class herbivoros {
+        class minhoca{
 
-    }
+        }
 
-    public class onivoros {
+        class macaco{
 
+        }
     }
 }
